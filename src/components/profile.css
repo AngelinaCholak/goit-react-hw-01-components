@@ -1,7 +1,4 @@
 @import-normalize;
-/* bring in normalize.css styles */
-
-/* profile.css */
 
 .profile {
     max-width: 400px;
@@ -99,7 +96,7 @@
     display: flex;
     align-items: center;
     margin-right: 5px;
-    width: 80px;
+    width: 70px;
     color: #777;
     justify-content: center;
   

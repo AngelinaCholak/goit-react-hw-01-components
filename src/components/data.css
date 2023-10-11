@@ -1,0 +1,59 @@
+@import-normalize;
+.statistics {
+    max-width: 432px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    border: 1.5px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    text-align: center;
+}
+
+.stat-list {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 8px;
+    
+}
+
+.title {
+    font-size: 34px;
+    font-weight: bold;
+    color: #777;
+    transition: transform 0.3s ease-in-out;
+}
+
+.title:hover {
+    transform: scale(1.1);
+}
+
+.item {
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    box-shadow: 0 0 5px rgba(8, 6, 6, 0.5);
+    font-family: Arial, sans-serif;
+    background-color: white;
+    transition: transform 0.3s ease-in-out;
+       
+}
+.item:hover {
+    transform: scale(1.08);
+}
+
+.label-statistics {
+    margin-bottom: 10px;
+}
+
+.percentage {
+    display: flex;
+    justify-content: center;
+}
+
+
