@@ -1,0 +1,115 @@
+@import-normalize;
+/* bring in normalize.css styles */
+
+/* profile.css */
+
+.profile {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: #f2f0f0;
+    border: 1.5px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+    text-align: center;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    background-color: white;
+    transition: transform 0.3s ease-in-out;
+}
+.avatar:hover {
+    transform: scale(1.1);
+    
+}
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    transition: transform 0.3s ease-in-out;
+}
+.name:hover {
+    transform: scale(1.1);
+
+}
+.tag {
+    color: #777;
+    margin: 4px 0;
+    font-size: 18px;
+    transition: transform 0.3s ease-in-out;
+}
+.tag:hover {
+    transform: scale(1.1);
+
+}
+
+.location {
+    color: #777;
+    margin: 4px 0;
+    font-size: 18px;
+    transition: transform 0.3s ease-in-out;
+}
+.location:hover {
+    transform: scale(1.1);
+
+}
+
+.stats {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.stats ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.stats ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.with-border {
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    box-shadow: 0 0 5px rgba(8, 6, 6, 0.5);
+    font-family: Arial, sans-serif;
+    background-color: white;
+    transition: transform 0.3s ease-in-out;
+}
+.with-border:hover {
+    transform: scale(1.1);
+
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    width: 80px;
+    color: #777;
+    justify-content: center;
+  
+}
+.quantity {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    gap: 5px;
+    justify-content: center;
+    font-style: italic;
+
+}
