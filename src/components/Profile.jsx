@@ -1,35 +1,33 @@
 import React from 'react';
-import './profile.css';
+// import profileCss from './Profile.module.css';
+import profileCss from './Profile.module.css'
+
 const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
-    <div className="profile">
-      <div className="description">
-        <img
-          src={avatar}
-          alt="User avatar"
-          className="avatar"
-        />
-              <p className="name">{username}</p>
-        <p className="tag">@{tag}</p>
-        <p className="location">{location}</p>
+    <div className={profileCss.profile}>
+      <div className={profileCss.description}>
+        <img src={avatar} alt="User avatar" className={profileCss.avatar} />
+        <p className={profileCss.name}>{username}</p>
+        <p className={profileCss.tag}>@{tag}</p>
+        <p className={profileCss.location}>{location}</p>
       </div>
 
-      <ul className="stats">
-        <li className='with-border'>
-          <span className="label">Followers</span>
-          <span className="quantity">{stats.followers}</span>
+      <ul className={profileCss.stats}>
+        <li className={profileCss.withBorder}>
+          <span className={profileCss.label}>Followers</span>
+          <span className={profileCss.quantity}>{stats.followers}</span>
         </li>
-        <li className='with-border'>
-          <span className="label">Views</span>
-          <span className="quantity">{stats.views}</span>
+        <li className={profileCss.withBorder}>
+          <span className={profileCss.label}>Views</span>
+          <span className={profileCss.quantity}>{stats.views}</span>
         </li>
-        <li className='with-border'>
-          <span className="label">Likes</span>
-          <span className="quantity">{stats.likes}</span>
+        <li className={profileCss.withBorder}>
+          <span className={profileCss.label}>Likes</span>
+          <span className={profileCss.quantity}>{stats.likes}</span>
         </li>
       </ul>
     </div>
   );
 };
 
-export default Profile; 
+export default Profile;

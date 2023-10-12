@@ -1,5 +1,5 @@
-import React from 'react';
-import './data.css';
+
+import dataCss from './data.module.css';
 
 const generateRandomColor = () => {
   const colors = [
@@ -15,19 +15,18 @@ const generateRandomColor = () => {
   return colors[randomIndex];
 };
 
-
 const Statistics = ({ title, stats }) => {
   return (
-    <section className="statistics">
-      <h2 className="title">{title}</h2>
-      <ul className="stat-list ">
+    <section className={dataCss.statistics}>
+      {title && <h2 className={dataCss.title}>{title}</h2>}
+      <ul className={dataCss.statList}>
         {stats.map(({ id, label, percentage }) => (
-          <li className="item" key={id} style={{ backgroundColor: generateRandomColor()}}>
-            <span className="label label-statistics">{label}</span>
-            <span className="percentage">{percentage}%</span>
+          <li className={dataCss.item} key={id} style={{ backgroundColor: generateRandomColor()}}>
+            <span className={`label ${dataCss.labelStatistics}`}>{label}</span>
+            <span className={dataCss.percentage}>{percentage}%</span>
           </li>
         ))}
-        </ul>
+      </ul>
     </section>
   );
 };

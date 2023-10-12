@@ -1,0 +1,37 @@
+.item {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: #f2f0f0;
+    border: 1.5px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    /* Вирівнювання по вертикалі */
+}
+
+.item .status {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.item .status.online {
+    background-color: green;
+}
+
+.item .status.offline {
+    background-color: red;
+}
+
+.item img {
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+}
+
+.item p {
+    margin: 0;
+}
