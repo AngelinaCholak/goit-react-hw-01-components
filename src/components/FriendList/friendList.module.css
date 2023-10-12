@@ -1,14 +1,15 @@
-.item {
-    max-width: 400px;
+.friendList {
+    max-width: 432px;
     margin: 0 auto;
-    padding: 16px;
-    background-color: #f2f0f0;
-    border: 1.5px solid #ddd;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0;
+    background-color:white;
+   
+   
+   
+    margin-top: 40px;
+    gap: 10px;
     display: flex;
-    align-items: center;
-    /* Вирівнювання по вертикалі */
+    flex-direction: column;
 }
 
 .item .status {
