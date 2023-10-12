@@ -1,6 +1,6 @@
 
 import React from 'react';
-import styles from './friendListItem.module.css'; 
+import styles from './friendListItem.module.css';
 const FriendItem = ({ friend }) => (
   <li className={styles.friendList}>
     <span className={`status ${friend.isOnline ? 'online' : 'offline'}`}></span>

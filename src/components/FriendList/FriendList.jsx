@@ -1,7 +1,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import friendListCss from './friendList.module.css';
+import friendListCss from "../FriendList/friendList.module.css";
 import FriendListItem from "../FriendListItem/FriendListItem";
 
 
