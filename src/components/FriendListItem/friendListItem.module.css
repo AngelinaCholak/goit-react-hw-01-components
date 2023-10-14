@@ -1,10 +1,9 @@
 .status {
     display: inline-block;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     margin-right: 8px;
-    
 }
 
 .status.online {
@@ -14,14 +13,29 @@
 .status.offline {
     background-color: red;
 }
+
 .friends {
     text-align: center;
     list-style: none;
-    
-   
     padding: 16px;
     background-color: white;
     border: 1.5px solid #ddd;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.imgFriend {
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+
+.largerImg {
+    width: 60px;
+    height: 60px;
+}
+
+.friendsName {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 8px;
 }
