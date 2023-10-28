@@ -1,5 +1,4 @@
 import React from 'react';
-// import profileCss from './Profile.module.css';
 import profileCss from './Profile.module.css'
 
 const Profile = ({ username, tag, location, avatar, stats }) => {
@@ -31,3 +30,10 @@ const Profile = ({ username, tag, location, avatar, stats }) => {
 };
 
 export default Profile;
+
+
+
+
+
+
+
